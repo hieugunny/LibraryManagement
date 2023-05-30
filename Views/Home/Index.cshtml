@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <a class="nav-link text-dark btn btn-primary mt-1" asp-area="" asp-controller="Books" asp-action="Index">Book</a>
+    <ul class="navbar-nav align-content-start">
+        <li class="nav-item">
+            <a class="nav-link text-dark btn btn-outline-primary" asp-area="" asp-controller="Books" asp-action="Create">Create book</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark btn btn-outline-primary" asp-area="" asp-controller="Books" asp-action="Index">List Book</a>
+        </li>
+    </ul>
+    <a class="nav-link text-dark btn btn-primary mt-1" asp-area="" asp-controller="LibraryCards" asp-action="Index">Library Card</a>
+    <ul class="navbar-nav align-content-start">
+        <li class="nav-item">
+            <a class="nav-link text-dark btn btn-outline-primary" asp-area="" asp-controller="LibraryCards" asp-action="Create">Create Card</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark btn btn-outline-primary" asp-area="" asp-controller="LibraryCards" asp-action="Index">List Card</a>
+        </li>
+    </ul>
+    <a class="nav-link text-dark btn btn-primary mt-1" asp-area="" asp-controller="BorrowedBooks" asp-action="Index">Borrow Book</a>
+    <ul class="navbar-nav align-content-start">
+        <li class="nav-item ">
+            <a class="nav-link text-dark btn btn-outline-primary" asp-area="" asp-controller="BorrowedBooks" asp-action="Create">Tạo phiếu mượn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark btn btn-outline-primary" asp-area="" asp-controller="BorrowedBooks" asp-action="Index">List phiếu mượn</a>
+        </li>
+    </ul>
+
+
+
+
+</div>
